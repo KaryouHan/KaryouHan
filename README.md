@@ -41,7 +41,6 @@
 
 
 ---
-
 ## 🚀 Open Source Projects
 
 - [LLM Test Assistant](https://github.com/KaryouHan/LLM-Test-Assistant)  
@@ -51,7 +50,11 @@
 - [LLM Japanese Learning Assistant](https://github.com/KaryouHan/llm-japanese-learning-assistant)  
   An LLM-powered Japanese learning assistant built with FastAPI, Vue 3, TypeScript, and DeepSeek API. It explains grammar, vocabulary, nuance, and practice questions for JLPT-style learning.
 
+- [SakuraTranslateBot](https://github.com/KaryouHan/SakuraTranslateBot)  
+  A Telegram-based Chinese-to-Japanese auto-translation tool for daily chat and Japanese learning. It uses a personal Telegram API client, detects outgoing Chinese messages, and appends Japanese translations under the original message with an OpenAI-compatible model API.
+
 More LLM engineering projects are currently in progress.
+
 
 ---
 
