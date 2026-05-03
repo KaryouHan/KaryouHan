@@ -51,6 +51,15 @@ More LLM engineering projects are currently in progress.
 
 ---
 
+## 🎓 Research Background
+
+- Machine Learning graduate student in Japan, with research interests in LLM applications, NLP, and applied AI systems.
+- ORCID: [0009-0002-1807-5871](https://orcid.org/0009-0002-1807-5871)
+- Google Scholar: [pan20011222](https://scholar.google.com/citations?user=pan20011222)
+- IEEE conference paper / graduation research: [DOI: 10.1109/ICAIDS67687.2025.00019](https://doi.org/10.1109/ICAIDS67687.2025.00019)
+
+---
+
 ## 🔭 Current Focus
 
 - Building LLM-powered applications with Python and LangChain.
