@@ -8,14 +8,8 @@
   <b>Machine Learning Graduate Student in Japan | Aspiring LLM Engineer</b>
 </p>
 
-<p align="center">
-  <a href="https://github.com/KaryouHan">
-    <img src="https://img.shields.io/badge/-GitHub-000?style=flat&logo=GitHub&logoColor=white" />
-  </a>
-  <a href="mailto:keliangpan.work@gmail.com">
-    <img src="https://img.shields.io/badge/-keliangpan.work%40gmail.com-c14438?style=flat&logo=Gmail&logoColor=white" />
-  </a>
-</p>
+
+
 
 <p align="center">
   <picture>
@@ -23,6 +17,17 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KaryouHan/KaryouHan/output/github-contribution-grid-snake.svg" />
     <img alt="github contribution snake" src="https://raw.githubusercontent.com/KaryouHan/KaryouHan/output/github-contribution-grid-snake.svg" />
   </picture>
+</p>
+
+
+
+<p align="center">
+  <a href="https://github.com/KaryouHan">
+    <img src="https://img.shields.io/badge/-GitHub-000?style=flat&logo=GitHub&logoColor=white" />
+  </a>
+  <a href="mailto:keliangpan.work@gmail.com">
+    <img src="https://img.shields.io/badge/-keliangpan.work%40gmail.com-c14438?style=flat&logo=Gmail&logoColor=white" />
+  </a>
 </p>
 
 ---
