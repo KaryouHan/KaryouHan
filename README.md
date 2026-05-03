@@ -97,11 +97,5 @@ Example:
 
 ## 🤗 About Me
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KaryouHan&count_private=true&theme=shadow_blue&show_icons=true&line_height=30px&hide=contribs,prs" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KaryouHan&layout=compact&theme=shadow_blue" />
-</p>
-
 > Welcome to my GitHub profile. I am currently building projects around LLM applications, AI-assisted development, and practical machine learning systems.
 
