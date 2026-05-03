@@ -62,16 +62,10 @@
 
 ## 🚀 Open Source Projects
 
-Currently building public projects for my LLM Engineer portfolio.
+- [LLM Japanese Learning Assistant](https://github.com/KaryouHan/llm-japanese-learning-assistant)  
+  An LLM-powered Japanese learning assistant built with FastAPI, Vue 3, TypeScript, and DeepSeek API. It explains grammar, vocabulary, nuance, and practice questions for JLPT-style learning.
 
-<!--
-Future projects will be listed here.
-
-Example:
-- [LLM Japanese Learning Assistant](https://github.com/KaryouHan/llm-japanese-learning-assistant)
-- [AI Code Review Assistant](https://github.com/KaryouHan/ai-code-review-assistant)
-- [Research Paper QA Assistant](https://github.com/KaryouHan/research-paper-qa-assistant)
--->
+More LLM engineering projects are currently in progress.
 
 ---
 
@@ -96,4 +90,3 @@ Example:
 ## 🤗 About Me
 
 > Welcome to my GitHub profile. I am currently building projects around LLM applications, AI-assisted development, and practical machine learning systems.
-
