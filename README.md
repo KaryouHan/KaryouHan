@@ -1,16 +1,103 @@
-## Hi there 👋
+# 👋 Hi there
+
+<h1 align="center">
+  Hi there, I'm Karyou Han
+</h1>
+
+<p align="center">
+  <b>Machine Learning Graduate Student in Japan | Aspiring LLM Engineer</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/KaryouHan">
+    <img src="https://img.shields.io/badge/-GitHub-000?style=flat&logo=GitHub&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## 🧑🏻‍💻 I'm Karyou Han
+
+- 🧑🏻‍🎓 A Machine Learning graduate student based in Japan.
+- 🤖 Currently focusing on Large Language Models, RAG systems, AI agents, and AI-assisted development.
+- 🌱 Building my portfolio for LLM Engineer / AI Engineer roles.
+- 💬 Ask me about Python, Java, TypeScript, LangChain, PyTorch, and LLM application development.
+- 💡 Fun fact: I am especially interested in combining language learning, NLP, and practical LLM applications.
+
+---
+
+## 🛠 Tech Stack
+
+- 💻 Languages  
+  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=Python&logoColor=3776AB)
+  ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=OpenJDK&logoColor=FFFFFF)
+  ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=TypeScript&logoColor=3178C6)
+  ![SQL](https://img.shields.io/badge/-SQL-333333?style=flat&logo=sqlite&logoColor=003B57)
+  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5&logoColor=E34F26)
+
+- 🌐 Frontend  
+  ![Vue 3](https://img.shields.io/badge/-Vue%203-333333?style=flat&logo=Vue.js&logoColor=4FC08D)
+  ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=TypeScript&logoColor=3178C6)
+  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5&logoColor=E34F26)
+
+- 🛢 Databases  
+  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=MySQL&logoColor=4479A1)
+  ![Redis](https://img.shields.io/badge/-Redis-333333?style=flat&logo=Redis&logoColor=DC382D)
+  ![SQL Server](https://img.shields.io/badge/-SQL%20Server-333333?style=flat&logo=Microsoft-SQL-Server&logoColor=CC2927)
+
+- 🤖 AI / Machine Learning  
+  ![PyTorch](https://img.shields.io/badge/-PyTorch-333333?style=flat&logo=PyTorch&logoColor=EE4C2C)
+  ![LangChain](https://img.shields.io/badge/-LangChain-333333?style=flat)
+  ![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Engineering-333333?style=flat)
+  ![LLM](https://img.shields.io/badge/-LLM-333333?style=flat)
+
+- 🔧 Tools & DevOps  
+  ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=Docker&logoColor=2496ED)
+  ![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=Linux&logoColor=FCC624)
+  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=Git&logoColor=F05032)
+
+---
+
+## 🚀 Open Source Projects
+
+Currently building public projects for my LLM Engineer portfolio.
 
 <!--
-**KaryouHan/KaryouHan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Future projects will be listed here.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+Example:
+- [LLM Japanese Learning Assistant](https://github.com/KaryouHan/llm-japanese-learning-assistant)
+- [AI Code Review Assistant](https://github.com/KaryouHan/ai-code-review-assistant)
+- [Research Paper QA Assistant](https://github.com/KaryouHan/research-paper-qa-assistant)
 -->
+
+---
+
+## 🔭 Current Focus
+
+- Building LLM-powered applications with Python and LangChain.
+- Learning and implementing RAG pipelines for document search and question answering.
+- Exploring AI agents and AI-assisted software development workflows.
+- Improving engineering practices around testing, documentation, deployment, and code review.
+
+---
+
+## 💪 Things I am challenging myself with
+
+- Coding consistently and building public projects.
+- Reading machine learning and LLM-related papers.
+- Improving Japanese and English communication for global engineering environments.
+- Using AI development tools effectively while strengthening my own engineering fundamentals.
+
+---
+
+## 🤗 About Me
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KaryouHan&count_private=true&theme=shadow_blue&show_icons=true&line_height=30px&hide=contribs,prs" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KaryouHan&layout=compact&theme=shadow_blue" />
+</p>
+
+> Welcome to my GitHub profile. I am currently building projects around LLM applications, AI-assisted development, and practical machine learning systems.
+
