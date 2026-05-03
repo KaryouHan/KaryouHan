@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <b>Machine Learning Graduate Student in Japan | Aspiring LLM Engineer</b>
+  <b>Machine Learning Graduate Student in Japan</b>
 </p>
 <p align="center">
   <picture>
@@ -27,7 +27,6 @@
 - 💡 Fun fact: I am especially interested in combining language learning, NLP, and practical LLM applications.
 
 ---
-
 ## 🛠 Tech Stack
 
 - 💻 Languages  
@@ -57,7 +56,6 @@
   ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=Docker&logoColor=2496ED)
   ![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=Linux&logoColor=FCC624)
   ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=Git&logoColor=F05032)
-
 ---
 
 ## 🚀 Open Source Projects
@@ -84,9 +82,3 @@ More LLM engineering projects are currently in progress.
 - Reading machine learning and LLM-related papers.
 - Improving Japanese and English communication for global engineering environments.
 - Using AI development tools effectively while strengthening my own engineering fundamentals.
-
----
-
-## 🤗 About Me
-
-> Welcome to my GitHub profile. I am currently building projects around LLM applications, AI-assisted development, and practical machine learning systems.
