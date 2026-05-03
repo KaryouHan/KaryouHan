@@ -29,33 +29,17 @@
 ---
 ## 🛠 Tech Stack | 技术栈
 
-- 💻 &nbsp;
-  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=Python&logoColor=3776AB)
-  ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=OpenJDK&logoColor=FFFFFF)
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=TypeScript&logoColor=3178C6)
-  ![SQL](https://img.shields.io/badge/-SQL-333333?style=flat&logo=sqlite&logoColor=003B57)
-  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5&logoColor=E34F26)
+- 💻 &nbsp; ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=Python&logoColor=3776AB) ![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=OpenJDK&logoColor=FFFFFF) ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=TypeScript&logoColor=3178C6) ![SQL](https://img.shields.io/badge/-SQL-333333?style=flat&logo=sqlite&logoColor=003B57) ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5&logoColor=E34F26)
 
-- 🌐 &nbsp;
-  ![Vue 3](https://img.shields.io/badge/-Vue%203-333333?style=flat&logo=Vue.js&logoColor=4FC08D)
-  ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5&logoColor=E34F26)
-  ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=TypeScript&logoColor=3178C6)
+- 🌐 &nbsp; ![Vue 3](https://img.shields.io/badge/-Vue%203-333333?style=flat&logo=Vue.js&logoColor=4FC08D) ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5&logoColor=E34F26) ![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=TypeScript&logoColor=3178C6)
 
-- 🛢 &nbsp;
-  ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=MySQL&logoColor=4479A1)
-  ![Redis](https://img.shields.io/badge/-Redis-333333?style=flat&logo=Redis&logoColor=DC382D)
-  ![SQL Server](https://img.shields.io/badge/-SQL%20Server-333333?style=flat&logo=Microsoft-SQL-Server&logoColor=CC2927)
+- 🛢 &nbsp; ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=MySQL&logoColor=4479A1) ![Redis](https://img.shields.io/badge/-Redis-333333?style=flat&logo=Redis&logoColor=DC382D) ![SQL Server](https://img.shields.io/badge/-SQL%20Server-333333?style=flat&logo=Microsoft-SQL-Server&logoColor=CC2927)
 
-- 🤖 &nbsp;
-  ![PyTorch](https://img.shields.io/badge/-PyTorch-333333?style=flat&logo=PyTorch&logoColor=EE4C2C)
-  ![LangChain](https://img.shields.io/badge/-LangChain-333333?style=flat)
-  ![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Engineering-333333?style=flat)
-  ![LLM](https://img.shields.io/badge/-LLM-333333?style=flat)
+- 🤖 &nbsp; ![PyTorch](https://img.shields.io/badge/-PyTorch-333333?style=flat&logo=PyTorch&logoColor=EE4C2C) ![LangChain](https://img.shields.io/badge/-LangChain-333333?style=flat) ![Prompt Engineering](https://img.shields.io/badge/-Prompt%20Engineering-333333?style=flat) ![LLM](https://img.shields.io/badge/-LLM-333333?style=flat)
 
-- 🔧 &nbsp;
-  ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=Docker&logoColor=2496ED)
-  ![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=Linux&logoColor=FCC624)
-  ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=Git&logoColor=F05032)
+- 🔧 &nbsp; ![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=Docker&logoColor=2496ED) ![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=Linux&logoColor=FCC624) ![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=Git&logoColor=F05032)
+
+
 ---
 
 ## 🚀 Open Source Projects
