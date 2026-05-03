@@ -20,8 +20,7 @@
 </p>
 
 
-
-<p align="center">
+<p>
   <a href="https://github.com/KaryouHan">
     <img src="https://img.shields.io/badge/-GitHub-000?style=flat&logo=GitHub&logoColor=white" />
   </a>
@@ -29,8 +28,6 @@
     <img src="https://img.shields.io/badge/-keliangpan.work%40gmail.com-c14438?style=flat&logo=Gmail&logoColor=white" />
   </a>
 </p>
-
----
 
 
 ---
