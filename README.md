@@ -44,6 +44,10 @@
 
 ## 🚀 Open Source Projects
 
+- [LLM Test Assistant](https://github.com/KaryouHan/LLM-Test-Assistant)  
+  Official implementation of my IEEE ICAIDS 2025 undergraduate thesis.  
+  This project builds a Chinese course knowledge base with Chroma vector retrieval, integrates an Agent-based workflow, and uses Docker-hosted SearXNG for external knowledge search when local course materials are insufficient. It also includes RAGAS-based evaluation.
+
 - [LLM Japanese Learning Assistant](https://github.com/KaryouHan/llm-japanese-learning-assistant)  
   An LLM-powered Japanese learning assistant built with FastAPI, Vue 3, TypeScript, and DeepSeek API. It explains grammar, vocabulary, nuance, and practice questions for JLPT-style learning.
 
@@ -58,8 +62,9 @@ More LLM engineering projects are currently in progress.
 
 ## 📚 Publications
 
-- **2025** - Undergraduate Thesis, IEEE ICAIDS 2025. [DOI: 10.1109/ICAIDS67687.2025.00019](https://doi.org/10.1109/ICAIDS67687.2025.00019)
-
+- **2025** - Undergraduate Thesis, IEEE ICAIDS 2025.  
+  DOI: [10.1109/ICAIDS67687.2025.00019](https://doi.org/10.1109/ICAIDS67687.2025.00019)  
+  Code: [LLM Test Assistant](https://github.com/KaryouHan/LLM-Test-Assistant)
 ---
 
 ## 🔭 Current Focus
