@@ -1,5 +1,4 @@
 # 👋 Hi there
-
 <h1 align="center">
   Hi there <img src="https://raw.githubusercontent.com/KaryouHan/KaryouHan/main/Assets/Hi.gif" width="40px">, I'm Karyou Han
 </h1>
@@ -7,10 +6,6 @@
 <p align="center">
   <b>Machine Learning Graduate Student in Japan | Aspiring LLM Engineer</b>
 </p>
-
-
-
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KaryouHan/KaryouHan/output/github-contribution-grid-snake-dark.svg" />
@@ -28,9 +23,6 @@
     <img src="https://img.shields.io/badge/-keliangpan.work%40gmail.com-c14438?style=flat&logo=Gmail&logoColor=white" />
   </a>
 </p>
-
-
----
 
 ## 🧑🏻‍💻 I'm Karyou Han
 
