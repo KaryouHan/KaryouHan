@@ -48,7 +48,7 @@
   This project builds a Chinese course knowledge base with Chroma vector retrieval, integrates an Agent-based workflow, and uses Docker-hosted SearXNG for external knowledge search when local course materials are insufficient. It also includes RAGAS-based evaluation.
 
 - [LLM Japanese Learning Assistant](https://github.com/KaryouHan/llm-japanese-learning-assistant)  
-  An LLM-powered Japanese learning assistant built with FastAPI, Vue 3, TypeScript, and DeepSeek API. It explains grammar, vocabulary, nuance, and practice questions for JLPT-style learning.
+  A Japanese learning assistant built with FastAPI, Vue 3, TypeScript, and DeepSeek API. It combines LLM-based sentence analysis with a local RAG pipeline for user-provided JLPT PDFs, using Chroma, multilingual embeddings, and reranking to retrieve related grammar examples.
 
 - [SakuraTranslateBot](https://github.com/KaryouHan/SakuraTranslateBot)  
   A Telegram-based Chinese-to-Japanese auto-translation tool for daily chat and Japanese learning. It uses a personal Telegram API client, detects outgoing Chinese messages, and appends Japanese translations under the original message with an OpenAI-compatible model API.
