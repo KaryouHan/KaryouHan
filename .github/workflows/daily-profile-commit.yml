@@ -1,0 +1,26 @@
+name: Daily profile commit
+
+on:
+  schedule:
+    # 22:00 UTC is 07:00 the next day in Japan Standard Time.
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily-profile-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Create empty commit
+        run: |
+          git config user.name "KaryouHan"
+          git config user.email "pkl1241716365@gmail.com"
+          commit_date="$(TZ=Asia/Tokyo date '+%Y-%m-%dT%H:%M:%S%z')"
+          GIT_AUTHOR_DATE="$commit_date" GIT_COMMITTER_DATE="$commit_date" git commit --allow-empty -m "chore: daily profile commit"
+          git push
