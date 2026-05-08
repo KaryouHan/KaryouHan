@@ -1,9 +1,13 @@
 name: Generate Snake
 
 on:
+  workflow_run:
+    workflows: ["Daily profile commit"]
+    types:
+      - completed
   schedule:
-    # 01:17 UTC is 10:17 in Japan Standard Time.
-    - cron: "17 1 * * *"
+    # Backup run: 01:37 UTC is 10:37 in Japan Standard Time.
+    - cron: "37 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,7 +16,12 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
+      - name: Wait for contribution graph indexing
+        if: ${{ github.event_name != 'workflow_dispatch' }}
+        run: sleep 600
+
       - uses: Platane/snk@v3
         with:
           github_user_name: KaryouHan

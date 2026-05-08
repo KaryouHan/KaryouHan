@@ -2,8 +2,8 @@ name: Daily profile commit
 
 on:
   schedule:
-    # 22:13 UTC is 07:13 the next day in Japan Standard Time.
-    - cron: "13 22 * * *"
+    # 00:05 UTC is 09:05 in Japan Standard Time.
+    - cron: "5 0 * * *"
   workflow_dispatch:
 
 permissions:
