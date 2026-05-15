@@ -17,10 +17,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Create empty commit
+      - name: Create profile commits
         run: |
           git config user.name "KaryouHan"
           git config user.email "pkl1241716365@gmail.com"
-          commit_date="$(TZ=Asia/Tokyo date '+%Y-%m-%dT%H:%M:%S%z')"
-          GIT_AUTHOR_DATE="$commit_date" GIT_COMMITTER_DATE="$commit_date" git commit --allow-empty -m "chore: daily profile commit"
+
+          commit_count=1
+          if [ "$(TZ=Asia/Tokyo date '+%u')" = "3" ]; then
+            commit_count=5
+          fi
+
+          for i in $(seq 1 "$commit_count"); do
+            commit_date="$(TZ=Asia/Tokyo date -d "+$i seconds" '+%Y-%m-%dT%H:%M:%S%z')"
+            message="chore: daily profile commit"
+            if [ "$commit_count" -gt 1 ]; then
+              message="chore: weekly profile commit $i/$commit_count"
+            fi
+            GIT_AUTHOR_DATE="$commit_date" GIT_COMMITTER_DATE="$commit_date" git commit --allow-empty -m "$message"
+          done
+
           git push
