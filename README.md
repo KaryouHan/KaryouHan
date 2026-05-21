@@ -52,6 +52,9 @@
 - [SakuraTranslateBot](https://github.com/KaryouHan/SakuraTranslateBot)  
   Telegram-based Chinese-to-Japanese auto-translation tool using an OpenAI-compatible model API for daily Japanese learning workflows.
 
+- [Agentic AI NPC Dialogue System](https://github.com/KaryouHan/agentic-npc-dialogue)  
+  Game-oriented AI NPC dialogue demo with LangGraph agent workflow, DeepSeek API, FastAPI, React, and SQLite. Manages persistent NPC emotion, memory, quest progression, action decisions, and visible agent decision logs.
+
 ---
 
 ## 🎓 Research
