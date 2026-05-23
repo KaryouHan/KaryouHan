@@ -2,8 +2,8 @@ name: Daily profile commit
 
 on:
   schedule:
-    # 00:05 UTC is 09:05 in Japan Standard Time.
-    - cron: "5 0 * * *"
+    # 00:05 UTC is 09:05 in Japan Standard Time, Monday through Friday.
+    - cron: "5 0 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -22,8 +22,14 @@ jobs:
           git config user.name "KaryouHan"
           git config user.email "pkl1241716365@gmail.com"
 
+          jst_day="$(TZ=Asia/Tokyo date '+%u')"
+          if [ "$jst_day" -ge 6 ]; then
+            echo "Weekend in Japan; skipping profile commit."
+            exit 0
+          fi
+
           commit_count=1
-          if [ "$(TZ=Asia/Tokyo date '+%u')" = "3" ]; then
+          if [ "$jst_day" = "3" ]; then
             commit_count=5
           fi
 

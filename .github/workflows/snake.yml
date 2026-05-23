@@ -6,8 +6,8 @@ on:
     types:
       - completed
   schedule:
-    # Backup run: 01:37 UTC is 10:37 in Japan Standard Time.
-    - cron: "37 1 * * *"
+    # Backup run: 01:37 UTC is 10:37 in Japan Standard Time, Monday through Friday.
+    - cron: "37 1 * * 1-5"
   workflow_dispatch:
 
 permissions:
