@@ -28,17 +28,45 @@ jobs:
             exit 0
           fi
 
-          commit_count=1
-          if [ "$jst_day" = "3" ]; then
+          jst_date="$(TZ=Asia/Tokyo date '+%Y-%m-%d')"
+          seed_hex="$(printf '%s' "KaryouHan-$jst_date" | sha256sum | cut -c1-8)"
+          roll=$((16#$seed_hex % 100))
+
+          if [ "$roll" -lt 25 ]; then
+            commit_count=0
+          elif [ "$roll" -lt 60 ]; then
+            commit_count=1
+          elif [ "$roll" -lt 80 ]; then
+            commit_count=2
+          elif [ "$roll" -lt 92 ]; then
+            commit_count=3
+          elif [ "$roll" -lt 98 ]; then
+            commit_count=4
+          else
             commit_count=5
           fi
 
-          for i in $(seq 1 "$commit_count"); do
+          if [ "$commit_count" -eq 0 ]; then
+            echo "Natural gap selected for $jst_date; skipping profile commit."
+            exit 0
+          fi
+
+          existing_count="$(
+            git log \
+              --since="$jst_date 00:00:00 +0900" \
+              --until="$jst_date 23:59:59 +0900" \
+              --format='%s' |
+              awk -v date="$jst_date" 'index($0, "chore: profile activity " date " ") == 1 { count++ } END { print count + 0 }'
+          )"
+
+          if [ "$existing_count" -ge "$commit_count" ]; then
+            echo "$jst_date already has $existing_count automated profile commits."
+            exit 0
+          fi
+
+          for i in $(seq $((existing_count + 1)) "$commit_count"); do
             commit_date="$(TZ=Asia/Tokyo date -d "+$i seconds" '+%Y-%m-%dT%H:%M:%S%z')"
-            message="chore: daily profile commit"
-            if [ "$commit_count" -gt 1 ]; then
-              message="chore: weekly profile commit $i/$commit_count"
-            fi
+            message="chore: profile activity $jst_date $i/$commit_count"
             GIT_AUTHOR_DATE="$commit_date" GIT_COMMITTER_DATE="$commit_date" git commit --allow-empty -m "$message"
           done
 
